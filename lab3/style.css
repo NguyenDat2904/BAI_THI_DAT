@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+
+    --fw900: 900;
+    --fw500: 500;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+.user{
+    background-color: var(--white-color);
+    border-radius: 16px;
+    padding: 100px;
+    
+}
+h2.title{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: var(--fw900);
+    line-height: 40px;
+    color: var(--black-color);
+    margin-bottom: 30px;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.search{
+    position: relative;
+}
+input{
+    padding: 20px 10px 20px 56px;
+    width: 327px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    outline: none;
+}
+.icon_search{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+}
+li{
+    padding: 16px;
+    font-family: Poppins;
+    font-weight: var(--fw500);
+    font-size: 16px;
+    color: #151B32;
+    line-height: 24px;
+    border-radius: 4px;
+}
+li.hover{
+    background-color: #849FFF;
+    color: var(--white-color);
+}
+.card_user{
+    padding: 24px;
+    gap: 16px;
+    border-radius: 16px;
+    background-color: #FBFCFF;
+}
+.card_user.hover{
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+/* .card_user:hover{
+    border: 1px solid #BFC8E6;
+        box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+} */
+img{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+.user_infor{
+    display: flex;
+    flex-direction: column;
+}
+.user_name{
+    font-family: Merriweather;
+    font-weight: var(--fw900);
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 4px;
+}
+p{
+        font-family: Poppins;
+        font-weight: var(--fw500);
+        font-size: 14px;
+        color: #151B32;
+        line-height: 21px;
+        margin-bottom: 18px;
+}
+.hobby{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+span{
+    color: #516FD5;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: var(--fw500);
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
